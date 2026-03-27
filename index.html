@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="univiz.org – Educational visualizations and interactive tools for university-level computer science education, developed at JKU Linz.">
+  <title>univiz.org – Educational Visualizations</title>
+  <link rel="stylesheet" href="assets/css/playful.css">
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header>
+    <div class="header-inner">
+      <a href="#" class="logo">univiz<span>.org</span></a>
+      <nav>
+        <a href="#tools">Tools</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>Educational <span>Visualizations</span> &amp; Tools</h1>
+      <p>
+        Interactive, browser-based tools that make computer science concepts tangible and fun —
+        built at the
+        <a href="https://ssw.jku.at" target="_blank" rel="noopener">Institute for System Software, JKU Linz</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===================== TOOLS ===================== -->
+  <section id="tools">
+    <div class="section-inner">
+      <h2>🛠️ Tools &amp; Visualizations</h2>
+      <p class="section-subtitle">Click a live tool to open it, or stay tuned for the upcoming ones!</p>
+
+      <div class="tools-grid">
+
+        <!--
+          Tool: Coding Chatbot for University Education
+          URL: https://chatbot.univiz.org
+          Status: live
+          Author: Lukas Werner (Bachelor's thesis)
+          Resource: https://ssw.jku.at/General/Staff/Weninger/BSC/2025_CodingChatbot-Werner/Topic.pdf
+        -->
+        <a href="https://chatbot.univiz.org" class="tool-card live" data-tool="chatbot" target="_blank" rel="noopener">
+          <span class="badge live">✨ Live</span>
+          <h3>🤖 Coding Chatbot</h3>
+          <p>An AI-powered chatbot that helps students learn programming through conversation and guided exercises.</p>
+          <div class="card-footer">
+            <span class="card-url">chatbot.univiz.org</span><br>
+            Bachelor's thesis · Lukas Werner
+          </div>
+        </a>
+
+        <!--
+          Tool: Graph Visualizer (BFS, DFS, Dijkstra)
+          URL: https://graphs.univiz.org
+          Status: live
+          Author: Marcel Burgstaller (Bachelor's thesis)
+          Resource: https://ssw.jku.at/Teaching/BachelorTheses/2025/Burgstaller_Marcel.pdf
+        -->
+        <a href="https://graphs.univiz.org" class="tool-card live" data-tool="graphs" target="_blank" rel="noopener">
+          <span class="badge live">✨ Live</span>
+          <h3>🔗 Graph Visualizer</h3>
+          <p>Interactively explore graph algorithms — BFS, DFS, and Dijkstra — through step-by-step visual walkthroughs.</p>
+          <div class="card-footer">
+            <span class="card-url">graphs.univiz.org</span><br>
+            Bachelor's thesis · Marcel Burgstaller
+          </div>
+        </a>
+
+        <!--
+          Tool: Flow Graph Visualizer (Ford-Fulkerson / Edmonds-Karp)
+          URL: https://flow.univiz.org
+          Status: coming-soon
+          Author: Sebastian Stiegler (Master's project)
+        -->
+        <div class="tool-card coming-soon">
+          <span class="badge soon">🔜 Coming Soon</span>
+          <h3>🌊 Flow Graph Visualizer</h3>
+          <p>Visualize maximum-flow algorithms — Ford-Fulkerson and Edmonds-Karp — on interactive network graphs.</p>
+          <div class="card-footer">
+            flow.univiz.org<br>
+            Master's project · Sebastian Stiegler
+          </div>
+        </div>
+
+        <!--
+          Tool: Multi-Language AST Visualizer
+          URL: https://ast.univiz.org
+          Status: coming-soon
+          Author: David Weinstabl (Bachelor's thesis); continues as Master's project by Sarah Gastner
+          Note: "Generalizing a Kotlin IR Visualizer to a Multi-Language AST Visualizer"
+          Resource: https://ssw.jku.at/Teaching/BachelorTheses/2025/Weinstabl_David.pdf
+        -->
+        <div class="tool-card coming-soon">
+          <span class="badge soon">🔜 Coming Soon</span>
+          <h3>🌳 AST Visualizer</h3>
+          <p>Visualize abstract syntax trees across multiple programming languages to understand compilation and parsing.</p>
+          <div class="card-footer">
+            ast.univiz.org<br>
+            Bachelor's thesis · David Weinstabl<br>
+            Master's project · Sarah Gastner
+          </div>
+        </div>
+
+        <!--
+          Tool: Sorting Algorithm Visualizer
+          URL: https://sorting.univiz.org
+          Status: coming-soon
+          Author: Jasmin Fürlinger (Bachelor's thesis)
+          Resource: https://ssw.jku.at/Teaching/BachelorTheses/2024/Fuerlinger_Jasmin.pdf
+        -->
+        <div class="tool-card coming-soon">
+          <span class="badge soon">🔜 Coming Soon</span>
+          <h3>📊 Sorting Algorithm Visualizer</h3>
+          <p>Animate and compare sorting algorithms step-by-step to build intuition for performance and correctness.</p>
+          <div class="card-footer">
+            sorting.univiz.org<br>
+            Bachelor's thesis · Jasmin Fürlinger
+          </div>
+        </div>
+
+        <!--
+          Tool: String-Search Algorithm Visualizer
+          URL: https://strings.univiz.org
+          Status: coming-soon
+          Author: Kilian Wolfinger (Bachelor's thesis)
+          Resource: https://ssw.jku.at/Teaching/BachelorTheses/2024/Wolfinger_Kilian.pdf
+        -->
+        <div class="tool-card coming-soon">
+          <span class="badge soon">🔜 Coming Soon</span>
+          <h3>🔍 String-Search Visualizer</h3>
+          <p>Visualize string-search and pattern-matching algorithms in action to grasp how text searching really works.</p>
+          <div class="card-footer">
+            strings.univiz.org<br>
+            Bachelor's thesis · Kilian Wolfinger
+          </div>
+        </div>
+
+        <!--
+          Tool: Web-Based EBNF Railroad Diagram Visualizer
+          URL: https://railroad.univiz.org
+          Status: coming-soon
+          Author: Alexander Voglsperger (Master's project)
+        -->
+        <div class="tool-card coming-soon">
+          <span class="badge soon">🔜 Coming Soon</span>
+          <h3>🚂 Railroad Diagram Visualizer</h3>
+          <p>Generate interactive railroad diagrams from EBNF grammar definitions to make formal language specifications visual.</p>
+          <div class="card-footer">
+            railroad.univiz.org<br>
+            Master's project · Alexander Voglsperger
+          </div>
+        </div>
+
+        <!--
+          Tool: Web-Based Bytecode Interpreter Visualization
+          URL: https://interpreter.univiz.org
+          Status: coming-soon
+          Author: Tobias Herber (Master's thesis)
+          Resource: https://ssw.jku.at/General/Staff/Weninger/MSC/2024_WebBasedBytecodeInterpreterVisualization-Herber/Topic_Herber.pdf
+        -->
+        <div class="tool-card coming-soon">
+          <span class="badge soon">🔜 Coming Soon</span>
+          <h3>⚙️ Bytecode Interpreter Visualizer</h3>
+          <p>Step through bytecode interpretation visually to understand how high-level programs are executed at a low level.</p>
+          <div class="card-footer">
+            interpreter.univiz.org<br>
+            Master's thesis · Tobias Herber
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section id="about">
+    <div class="section-inner">
+      <div class="about-inner">
+        <div class="about-photo-placeholder" title="Photo of Dr. Markus Weninger">🎓</div>
+        <div class="about-text">
+          <h2>Dr. Markus Weninger</h2>
+          <span class="about-role">Senior Lecturer · Institute for System Software · JKU Linz</span>
+          <p>
+            Markus Weninger is a Senior Lecturer in Computer Science at the
+            Johannes Kepler University (JKU) Linz, Austria.
+            His work unites two passions: <em>computer science</em> and <em>teaching</em>.
+            He lectures courses on software development and compiler construction, and conducts
+            research on program analysis, code modification, program comprehension, and software
+            visualizations — especially in the context of education.
+          </p>
+          <p>
+            univiz.org collects interactive tools developed by him or under his supervision
+            as part of bachelor's and master's theses at JKU.
+          </p>
+          <a href="https://ssw.jku.at/General/Staff/Weninger/" class="btn-link" target="_blank" rel="noopener">
+            JKU Profile →
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer>
+    <div class="footer-inner">
+      <p>
+        <strong style="color: #fff;">univiz.org</strong> ·
+        <a href="https://ssw.jku.at" target="_blank" rel="noopener">Institute for System Software</a> ·
+        <a href="https://www.jku.at" target="_blank" rel="noopener">Johannes Kepler University Linz</a>
+      </p>
+      <p>&copy; <span id="year"></span> Dr. Markus Weninger</p>
+    </div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
+
+</body>
+</html>
