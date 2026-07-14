@@ -1,0 +1,24 @@
+# Local AI tooling state
+.serena/
+.codex/
+
+# Editors
+.idea/
+.vscode/
+*.code-workspace
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
