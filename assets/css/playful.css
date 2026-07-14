@@ -170,6 +170,7 @@ h2 {
 
 .tool-card[data-tool="chatbot"] { --accent: var(--c-chatbot); }
 .tool-card[data-tool="graphs"]  { --accent: var(--c-graphs); }
+.tool-card[data-tool="interpreter"] { --accent: #7c3aed; }
 
 .tool-card.live:hover {
   box-shadow: var(--shadow-hover);
@@ -222,6 +223,29 @@ h2 {
 .card-url {
   font-weight: 700;
   color: var(--accent, var(--color-primary));
+}
+
+.card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.card-action {
+  background: var(--accent, var(--color-primary));
+  border-radius: var(--radius-pill);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.4rem 0.75rem;
+  text-decoration: none;
+  transition: filter 0.2s, transform 0.15s;
+}
+
+.card-action:hover,
+.card-action:focus-visible {
+  filter: brightness(0.9);
+  transform: translateY(-1px);
 }
 
 /* === ABOUT === */

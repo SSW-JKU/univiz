@@ -35,7 +35,7 @@ sudo mkdir -p /opt/univiz
 cd /opt/univiz
 
 sudo curl -fsSL -o docker-compose.yml \
-  https://raw.githubusercontent.com/NeonMika/univiz/HEAD/deploy/docker-compose.yml
+  https://raw.githubusercontent.com/SSW-JKU/univiz/HEAD/deploy/docker-compose.yml
 
 sudo docker compose pull
 sudo docker compose up -d --remove-orphans
