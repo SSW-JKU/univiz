@@ -1,0 +1,9 @@
+.git
+.github
+.serena
+deploy
+Dockerfile
+.dockerignore
+README.md
+*.md
+*.log

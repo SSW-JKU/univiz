@@ -1,0 +1,19 @@
+services:
+  univiz-app:
+    image: ghcr.io/neonmika/univiz:latest
+    container_name: univiz-app
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:12345:80"
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+
+  univiz-watchtower:
+    image: containrrr/watchtower:latest
+    container_name: univiz-watchtower
+    restart: unless-stopped
+    environment:
+      DOCKER_API_VERSION: "1.44"
+    command: --interval 120 --cleanup --label-enable
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
