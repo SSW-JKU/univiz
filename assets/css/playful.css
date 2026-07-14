@@ -170,6 +170,9 @@ h2 {
 
 .tool-card[data-tool="chatbot"] { --accent: var(--c-chatbot); }
 .tool-card[data-tool="graphs"]  { --accent: var(--c-graphs); }
+.tool-card[data-tool="flow"] { --accent: #0284c7; }
+.tool-card[data-tool="sorting"] { --accent: #ea580c; }
+.tool-card[data-tool="railroad"] { --accent: #b45309; }
 .tool-card[data-tool="interpreter"] { --accent: #7c3aed; }
 
 .tool-card.live:hover {
