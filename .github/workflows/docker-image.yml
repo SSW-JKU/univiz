@@ -35,5 +35,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/neonmika/univiz:latest
-            ghcr.io/neonmika/univiz:${{ github.sha }}
+            ghcr.io/ssw-jku/univiz:latest
+            ghcr.io/ssw-jku/univiz:${{ github.sha }}

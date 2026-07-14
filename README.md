@@ -14,8 +14,8 @@ The public image is published to GitHub Container Registry after every push to
 `main` or `master`:
 
 ```bash
-docker pull ghcr.io/neonmika/univiz:latest
-docker run --rm -p 8080:80 ghcr.io/neonmika/univiz:latest
+docker pull ghcr.io/ssw-jku/univiz:latest
+docker run --rm -p 8080:80 ghcr.io/ssw-jku/univiz:latest
 ```
 
 Open `http://localhost:8080`.
@@ -78,8 +78,8 @@ sudo systemctl reload nginx
 Each successful default-branch build publishes:
 
 ```text
-ghcr.io/neonmika/univiz:latest
-ghcr.io/neonmika/univiz:<commit-sha>
+ghcr.io/ssw-jku/univiz:latest
+ghcr.io/ssw-jku/univiz:<commit-sha>
 ```
 
 The immutable commit tag is useful for pinning a server to a known version;

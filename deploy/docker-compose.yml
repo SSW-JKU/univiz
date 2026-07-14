@@ -1,6 +1,6 @@
 services:
   univiz-app:
-    image: ghcr.io/neonmika/univiz:latest
+    image: ghcr.io/ssw-jku/univiz:latest
     container_name: univiz-app
     restart: unless-stopped
     ports:
