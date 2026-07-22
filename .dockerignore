@@ -1,6 +1,5 @@
 .git
 .github
-.serena
 deploy
 Dockerfile
 .dockerignore
